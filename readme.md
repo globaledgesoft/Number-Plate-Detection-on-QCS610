@@ -1,4 +1,4 @@
-# Number Plate Detection on c610
+# Number Plate Detection on QCS610
 ## About the project
 
  - In this project, we are trying to detect and recognize the number plate using the qualcomm c610 camera. OpenCV library api’s are used for detecting the number plate region in the given or captured image and using the google tesseract-ocr python library, we are recognizing the number & digits on the detected region
