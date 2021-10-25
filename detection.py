@@ -58,7 +58,7 @@ def getNumberPlate(image_path):
         (bottomx, bottomy) = (np.max(x), np.max(y))
         cropped = gray[topx:bottomx+1, topy:bottomy+1]
         text = pytesseract.image_to_string(cropped, config='--psm 6')
-        print("Detecetd Number Plate :"+ text
+        print("Detecetd Number Plate :"+ text)
         return text
 
 
